@@ -65,15 +65,102 @@ h1 {
     text-align:center;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size:3rem;
+    margin: 0;
+    letter-spacing:.25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size:2rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:black;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size:1.5rem;
+    margin: 0;
+    letter-spacing:.25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+	padding-bottom:1.125rem;
+}
+
+h4.span{
+	padding-top:0rem;
+	padding-bottom:0rem;
+	padding-left:.5rem;
+	padding-right:.5rem;
+}
+
+h5 {
+    font-size:1rem;
+    margin-top:.25rem;
+	padding:.5rem;
+    letter-spacing:.5rem;
+    color:#FFF;
+    font-family:'Alfa Slab One', Garamond, serif;
+	font-weight: normal;
+    text-align:center;
+	background-color:#333;
+}
 
 /* Section & Paragraph */
+section {
+	margin-top:1rem;
+}
 
-
+p {
+	margin-top:.5rem;
+	margin-bottom:.5rem;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:0rem;
+	padding-bottom:0rem;
+	padding-left:1rem;
+	padding-right:1rem;
+	width:90%;
+	text-align:left;
+}
 
 /* Image & Figure */
+img {
+	width:100%;
+	max-width:50rem;
+	margin-top:0rem;
+	margin-bottom:0rem;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
 
+figure {
+	margin-bottom:2rem;
+}
 
+figcaption {
+	padding-top:.5rem;
+	text-align:right;
+}
 
 /* Footer */
+footer {
+	padding:1rem;
+	border-top-color:#333;
+	border-top-style:solid;
+	border-top-width:2rem;
+}	
 
 
