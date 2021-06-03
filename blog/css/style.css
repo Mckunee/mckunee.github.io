@@ -1,0 +1,264 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+
+@font-face {
+    font-family:Lato;
+    src: url(../fonts/lato-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+
+@font-face {
+    font-family:Ultra;
+    src: url(../fonts/ultra-regular.ttf);
+    font-style:normal;
+    font-weight:normal;
+}
+	
+	
+html {
+    margin: 0;
+    padding: 0;
+    font-size:.75rem;
+    background-color:#FFFFFF;
+}
+
+body {
+    max-width:1000px;
+    margin:0 auto;
+    padding:1rem 2rem;    
+    color:#111;
+    font-family:'Lato', sans-serif;
+       
+} 
+
+header {
+    margin-bottom:5rem;
+	margin-top:2rem;
+    padding-bottom:2rem;
+	text-align:center;
+	padding:1rem;
+	transform: rotate(-8deg);
+	display:block
+}
+ 
+h1 {
+    font-size:3.5rem;
+    color:#333;
+    font-family:'Lato', sans-serif;     
+    margin:0;
+}
+
+.highlight {
+    color:#FFF;
+	font-family:'Ultra', serif;
+	padding:.25rem;
+	box-shadow:0rem .2rem .3rem 0rem #000;
+	border-top-left-radius:1rem 1rem;
+	border-top-right-radius:0;
+	border-bottom-right-radius:1rem 1rem;
+	border-bottom-left-radius:0;
+	background-color:#5c1e27;
+	
+}
+
+h2 {   
+    font-size:1.5rem;
+    margin-top:1.5rem;
+	margin-bottom:0rem;
+    font-family:Lato, sans-serif;
+	font-weight:500
+    
+}
+
+h3{
+	font-size:1.25rem;
+	font-weight:500;
+	margin-top:0;
+	margin-bottom:.5rem;
+	
+}
+
+nav {
+	text-align:left;
+    border-bottom:.0625rem solid #333;
+	border-top:.0625rem solid #333;
+	padding:1.5rem;
+	font-size:1.5rem
+}
+
+nav a{
+	padding:1.25rem;
+	text-decoration:none;
+	color:#27476e
+}
+
+nav a:hover {
+	text-decoration: line-through;
+	transform: rotate(10deg);
+	color:#000;
+}
+
+aside {
+	float:right;
+	padding-left:.75rem;
+	border-left:.0625rem solid #333;
+	width:20%;
+	font-size:.75rem;
+	text-align:justify;
+	margin-top:0;
+	padding-bottom:7rem;
+	
+}	
+
+
+aside a{
+	text-align:left;
+	font-size:.25rem;
+	color:#000;
+	text-decoration:none;
+}		
+
+aside img{
+	width:100%;
+    max-width:18rem;
+}
+
+aside div{
+	border-bottom:.0625rem solid #333;
+	padding-top:0rem;
+	padding-bottom:4rem;
+	padding-left:1rem;
+	margin:0;
+}
+
+article{
+	float:left;
+	width:75%;
+}
+
+.linespacing{
+	padding-top:4rem;
+}
+
+.article-image{
+	float:left;
+	margin-left:0;
+	margin-bottom:0;
+	margin-right:1rem;
+	margin-top:1rem;
+	
+}
+
+article img{
+	width:100%;
+    max-width:24rem;
+	margin:0;
+	text-align:left;
+}
+
+time{
+	text-align:left;
+	font-size:.75rem;
+}
+
+.subsection{
+	max-width:100%;
+	display: inline-block;
+	margin-left:0rem;
+	margin-right:0rem;
+}
+
+.subsection img{
+	width:100%;
+    max-width:20rem;
+	vertical-align:top;
+
+}
+
+.subsection figure{
+	float: left;
+	width:32%;
+	margin-right:.8rem;
+	margin-left:0;
+	margin-top:3rem;
+	margin-bottom:1rem;
+
+}
+
+.subsection figure figcaption {
+    text-align: center;
+	font-size:1rem;
+    padding-top:.75rem;
+	padding-bottom:.75rem;
+    margin:0;
+    background-color:#eeeedd;
+    color:#000;
+	width:100%;
+	max-width:30rem;
+}
+
+.subscribe{
+    color:#FFF;
+	font-family:'Ultra', serif;
+	font-size:1.5rem;
+	padding:.75rem;
+	box-shadow:0rem .01rem .25rem 0rem #000;
+	border-top-left-radius:.5rem .5rem;
+	border-top-right-radius:.5rem .5rem;
+	border-bottom-right-radius:.5rem .5rem;
+	border-bottom-left-radius:.5rem .5rem;
+	background-color:#27476e;
+	margin:1rem;
+}
+footer{
+	clear:both;
+	padding-top:3rem;
+}	
