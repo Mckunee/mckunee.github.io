@@ -262,3 +262,16 @@ footer{
 	clear:both;
 	padding-top:3rem;
 }	
+footer a{
+	text-decoration:none;
+	color:#27476e;
+}
+
+#attribute{
+	float:right;
+	text-align:right;
+}
+
+#copyright{
+	float:left;
+}
