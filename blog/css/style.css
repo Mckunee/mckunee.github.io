@@ -256,7 +256,8 @@ time{
 	border-bottom-right-radius:.5rem .5rem;
 	border-bottom-left-radius:.5rem .5rem;
 	background-color:#27476e;
-	margin:1rem;
+	margin-top:1rem;
+	margin-left:0;
 }
 footer{
 	clear:both;
